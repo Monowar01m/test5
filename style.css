@@ -1,0 +1,116 @@
+.header{
+    background-color: #3498db;
+}
+.header img{
+    width: 160px;
+    height: auto;
+}
+.primary-menu{
+
+}
+.primary-menu ul{
+    margin-bottom: 0px;
+    text-align: center;
+    
+
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    color: white;
+
+}
+.primary-menu ul li a{
+    display: block;
+    color: aliceblue;
+    padding: 0 30px;
+    line-height: 72px;
+    font-size: 20px;
+    border-right: 1px solid white
+}
+.primary-menu ul li a:hover{
+    background-color: #7d95a5; 
+
+}
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text h1{
+    background-color: #595c5f;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+
+}
+.banner-text h2{
+    background-color: rgba(52, 152, 219, .6);
+    color: white;
+    max-width: 502px;
+    margin: auto;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.about-us h2{
+    font-size: 50px;
+}
+.about-us p{
+   font-size: 20px;
+}
+.about{
+    background-color: rgba(128, 139, 146, 0.6) ;
+   
+}
+.service{
+    background-color: #eaf0f3;
+}
+.service span{
+    height: 60px;
+    width: 60px;
+    background-color: #3498db;
+    color: white;
+    margin:  10px auto;
+    font-size: 40px;
+   
+    border-radius: 20px 0 20px 0;
+}
+img{
+    max-width: 100%;
+}
+.product-item p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.product-right ul li{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: #f7f7ff;
+    margin-top: 5px;
+
+}
+.product-right h2{
+    border-bottom: 1px solid black;
+}
+.footer{
+    background-color: #2c3e50;
+    color: white;
+
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+}
